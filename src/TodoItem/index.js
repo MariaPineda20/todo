@@ -4,6 +4,13 @@ import './item.css'
 
 function TodoItem(props) {
 
+const onCompleted = () =>{
+  alert('Ya completaste el TODO ' + props.text);
+};
+
+const onDeleted = () =>{
+  alert('Borraste el TODO ' + props.text);
+};
 
   return ( 
     <li className="TodoItem">
