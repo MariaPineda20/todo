@@ -1,0 +1,24 @@
+
+h1{
+    font-size: 7rem;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+    h1 {
+      font-size: 5rem;
+    }
+  }
+
+@media (max-width: 300px) {
+    h1 {
+      font-size: 4rem;
+    }
+    
+  }

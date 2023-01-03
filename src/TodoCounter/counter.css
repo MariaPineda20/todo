@@ -1,0 +1,28 @@
+
+h2{
+    font-size: 3rem;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    text-shadow: 0 0 10px #fff;
+}
+
+@media (max-width: 1200px) {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+
+@media (max-width: 300px) {
+    h2 {
+      font-size: 1rem;
+    }
+    .counter{
+        margin-top: 20px;
+    }
+    
+  }

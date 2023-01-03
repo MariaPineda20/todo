@@ -1,0 +1,44 @@
+
+.LoadingTodo-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  margin-top: 30px;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.carga{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 15px solid #ccc;
+  border-top-color: #61DAFA ;
+  border-top-style:groove;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate {
+  from{
+      -webkit-transform: rotate(0deg);
+  }
+  to{
+      -webkit-transform: rotate(360deg);
+  }
+}
+
+p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 10px;
+}
