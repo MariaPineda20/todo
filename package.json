@@ -1,5 +1,5 @@
-{
-  "name": "todo-app",
+{ "homepage":"https://MariaPineda20.github.io/todo",
+  "name": "todo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -39,6 +39,5 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  },
-  "homepage": "https://MariaPineda20.github.io/todo-app"
+  }
 }
